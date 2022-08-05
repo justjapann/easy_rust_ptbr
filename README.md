@@ -5,8 +5,8 @@
 ## A tradução pode conter alguns erros, então eu agradeço quem poder me ajudar a arrumar eles.
 
 - [Introdução](https://github.com/justjapann/easy_rust_ptbr/blob/main/Introduction/introduction.md)
-- Parte 1 - Rust no seu navegador
-  - Rust Playground
+- [Parte 1 - Rust no seu navegador](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/browser/browser.md)
+  - [Rust Playground](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/playground/playground.md)
   - 🚧 e ⚠️
   - Comentarios
   - Types

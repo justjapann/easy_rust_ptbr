@@ -1,5 +1,120 @@
 # This is a translation of easy_rust from Dhghomon, all records reserved for it
 
-## Original repository [https://github.com/Dhghomon/easy_rust]
+## Original repository https://github.com/Dhghomon/easy_rust
 
 ## That translation may have some errors, I appreciate it if you helped me to fix them!
+
+- [Introdução](https://github.com/justjapann/easy_rust_ptbr/blob/main/Introduction/introduction.md)
+- Part 1 - Rust no seu navegador
+  - Rust Playground
+  - 🚧 e ⚠️
+  - Comentarios
+  - Types
+    - Primitive types
+  - Inferência de tipos
+    - Floats
+  - Printando 'hello, world!'
+    - Declarando variáveis e códigos de bloco
+  - Display e debug
+    - Pequenos e grandes números
+  - Mutabilidade
+    - Sombras
+  - Alocação de memoria
+  - Mais sobre print
+  - Strings
+  - Mais variáveis
+  - Mais referências
+  - Referencias mutáveis
+    - Sombras denovo
+  - Dando referência as funções
+  - Copy types
+    - Variáveis sem valores
+  - Collection types
+    - Arrays
+  - Vectors
+  - Tuplas
+  - Controle de fluxo
+  - Structs
+  - Enums
+    - Enums com vários tipos
+  - Loops
+  - Implementando structs and enums
+  - Desestruturando
+  - ReferÇencias e o operador dot
+  - Generics
+  - Option e Result
+    - Option
+    - Result
+  - Outras coleções
+    - HashMap (and BTreeMap)
+    - HashSet and BTreeSet
+    - BinaryHeap
+    - VecDeque
+  - Operador ?
+    - Quando panic e unwrap são bons
+  - Traits
+    - From
+    - Pegando a String e &str na função
+  - Métodos de encadeamento
+  - Iteradores
+    - Como os iteradores funcionam
+  - Closures
+    - |\_| em um closure
+    - Metodos úteis para closures e iteradores
+  - dbg! macro e .inspect
+  - Tipos do &str
+  - Lifetimes
+  - Mutabilidade interior
+    - Cell
+    - RefCell
+    - Mutex
+    - RwLock
+  - Cow
+  - Type aliases
+    - Importando e renomeando dentro de uma função
+  - todo! macro
+  - Rc
+  - Multiplas threads
+  - Closures em funções
+  - impl Trait
+  - Arc
+  - Channels
+  - Vendo a documentação de Rust
+    - assert_eq!
+    - Searching
+    - src button
+    - Informações em traits
+  - Attributes
+  - Box
+  - Box em torno de traits
+  - Default and the builder pattern
+  - Deref and DerefMut
+  - Crates e modules
+  - Testes
+    - Test-driven development
+  - crates externos
+    - rand
+    - rayon
+    - serde
+    - regex
+    - chrono
+  - Um tour pela lib padrão
+    - Arrays
+    - char
+    - Inteiros
+    - Floats
+    - Bool
+    - Vec
+    - String
+    - OsString e CString
+    - Mem
+    - Prelude
+    - Time
+    - Other-macros
+  - Escrevendo macros
+- Part 2 - Rust no seu computador
+  - Cargo
+  - Taking_user_input
+  - Usando files
+  - Cargo doc
+  - O fim?

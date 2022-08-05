@@ -1,11 +1,11 @@
 # Essa é uma tradução do livro easy_rust do Dhghomon, todos os direitos são reservados a ele!
 
-## Repositorio original https://github.com/Dhghomon/easy_rust
+## Repositório original https://github.com/Dhghomon/easy_rust
 
 ## A tradução pode conter alguns erros, então eu agradeço quem poder me ajudar a arrumar eles.
 
 - [Introdução](https://github.com/justjapann/easy_rust_ptbr/blob/main/Introduction/introduction.md)
-- Part 1 - Rust no seu navegador
+- Parte 1 - Rust no seu navegador
   - Rust Playground
   - 🚧 e ⚠️
   - Comentarios

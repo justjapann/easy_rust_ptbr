@@ -1,8 +1,10 @@
 # This is a translation of easy_rust from Dhghomon, all records reserved for it
 
-## Original repository https://github.com/Dhghomon/easy_rust
+# Essa é uma tradução do livro easy_rust do Dhghomon, todos os direitos são reservados a ele!
 
-## That translation may have some errors, I appreciate it if you helped me to fix them!
+## Repositorio original https://github.com/Dhghomon/easy_rust
+
+## A tradução pode conter alguns erros, então eu agradeço quem poder me ajudar a arrumar eles.
 
 - [Introdução](https://github.com/justjapann/easy_rust_ptbr/blob/main/Introduction/introduction.md)
 - Part 1 - Rust no seu navegador
@@ -118,3 +120,5 @@
   - Usando files
   - Cargo doc
   - O fim?
+
+### I would like to thank Dhghomon who give me the records to translate his book

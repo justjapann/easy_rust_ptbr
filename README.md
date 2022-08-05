@@ -1,5 +1,3 @@
-# This is a translation of easy_rust from Dhghomon, all records reserved for it
-
 # Essa é uma tradução do livro easy_rust do Dhghomon, todos os direitos são reservados a ele!
 
 ## Repositorio original https://github.com/Dhghomon/easy_rust

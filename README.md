@@ -8,7 +8,7 @@
 - [Parte 1 - Rust no seu navegador](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/browser/browser.md)
   - [Rust Playground](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/playground/playground.md)
   - [🚧 e ⚠️](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/warning/warning.md)
-  - [Comentarios](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/comments/comments.md)
+  - [Comentários](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/comments/comments.md)
   - [Types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/types.md)
     - [Primitive types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/primitive_types.md)
   - Inferência de tipos
@@ -18,14 +18,14 @@
   - Display e debug
     - Pequenos e grandes números
   - Mutabilidade
-    - Sombras
+    - Shadowing
   - Alocação de memoria
   - Mais sobre print
   - Strings
   - Mais variáveis
   - Mais referências
   - Referencias mutáveis
-    - Sombras denovo
+    - Shadowing denovo
   - Dando referência as funções
   - Copy types
     - Variáveis sem valores

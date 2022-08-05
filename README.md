@@ -7,10 +7,10 @@
 - [Introdução](https://github.com/justjapann/easy_rust_ptbr/blob/main/Introduction/introduction.md)
 - [Parte 1 - Rust no seu navegador](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/browser/browser.md)
   - [Rust Playground](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/playground/playground.md)
-  - 🚧 e ⚠️
-  - Comentarios
-  - Types
-    - Primitive types
+  - [🚧 e ⚠️](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/warning/warning.md)
+  - [Comentarios](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/comments/comments.md)
+  - [Types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/types.md)
+    - [Primitive types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/primitive_types.md)
   - Inferência de tipos
     - Floats
   - Printando 'hello, world!'

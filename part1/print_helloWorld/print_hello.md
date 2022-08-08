@@ -105,3 +105,5 @@ fn main() {
     let multiply_result = multiply(8, 9); // retorna uma funcao
 }
 ```
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/print_helloWorld/variable.md)

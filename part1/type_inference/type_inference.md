@@ -45,3 +45,5 @@ fn main() {
 ```
 
 Isso printa `0, 1624`.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/type_inference/float.md)

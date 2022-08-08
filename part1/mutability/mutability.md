@@ -38,3 +38,5 @@ fn main() {
 ```
 
 Você verá a mesma mensagem "expected" do compilador: `expected integer, found &str`. `&str` isso é um tipo de string que veremos mais tarde.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/shadowing.md)

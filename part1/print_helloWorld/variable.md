@@ -50,3 +50,5 @@ fn main() {
 ```
 
 Então por que nós escrevemos `{:?}` e não `{}`? Nós vamos falar sobre isso agora.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/display_debug/display_debug.md)

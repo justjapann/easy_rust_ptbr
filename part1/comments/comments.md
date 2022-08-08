@@ -39,3 +39,5 @@ fn main() {
     // que ..
 }
 ```
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/types.md)

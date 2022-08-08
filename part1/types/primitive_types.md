@@ -136,3 +136,5 @@ Isso printa:
 Slice is 6 bytes and also 6 characters.
 Slice2 is 7 bytes but only 3 characters.
 ```
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/type_inference/type_inference.md)

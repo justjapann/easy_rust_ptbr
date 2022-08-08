@@ -14,3 +14,5 @@ Aqui estão algumas dicas para usar o Playground
 - Config: Trocar para o tema escuro e muitas outras configurações.
 
 Se você quer instalar Rust, vai para [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install) e siga as instruções. Normalmente você vai usar o `rustup` para instalar e atualizar seu Rust.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/warning/warning.md)

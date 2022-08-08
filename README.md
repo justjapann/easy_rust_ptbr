@@ -11,14 +11,14 @@
   - [Comentários](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/comments/comments.md)
   - [Types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/types.md)
     - [Primitive types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/primitive_types.md)
-  - Inferência de tipos
-    - Floats
-  - Printando 'hello, world!'
-    - Declarando variáveis e códigos de bloco
-  - Display e debug
-    - Pequenos e grandes números
-  - Mutabilidade
-    - Shadowing
+  - [Inferência de tipos](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/type_inference/type_inference.md)
+    - [Floats](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/type_inference/float.md)
+  - [Printando 'hello, world!'](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/print_helloWorld/print_hello.md)
+    - [Declarando variáveis e códigos de bloco](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/print_helloWorld/variable.md)
+  - [Display e debug](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/display_debug/display_debug.md)
+    - [Pequenos e grandes números](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/display_debug/small_and_largest.md)
+  - [Mutabilidade](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/mutability.md)
+    - [Shadowing](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/shadowing.md)
   - Alocação de memoria
   - Mais sobre print
   - Strings

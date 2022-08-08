@@ -72,3 +72,5 @@ fn main() {
     let third_float = my_float + my_other_float; // mas agora ele sabe que voce precisa adicionar com um f32. entao ele escolhe um f32 para my_other_float tambem
 }
 ```
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/print_helloWorld/print_hello.md)

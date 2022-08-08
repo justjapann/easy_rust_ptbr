@@ -44,3 +44,5 @@ fn main() {
 ```
 
 Isso printa `This will not print a new line so this will be on the same line`.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/display_debug/small_and_largest.md)

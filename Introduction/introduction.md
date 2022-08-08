@@ -11,3 +11,5 @@ Eu sou um Canadense que mora na Coreia do Sul, eu escrevi "Easy Rust" por um tem
 ## Easy Rust
 
 _Rust com uma didática fácil_ foi escrito em Julho até Agosto de 2020, e tem mais de 400 páginas. Você pode entrar em contato comigo pelo [LinkedIn](https://www.linkedin.com/in/davemacleod) ou [Twitter](https://twitter.com/mithridates) se você tiver qualquer dúvida. Se você ver qualquer coisa errada ou alguma atualização para fazer, fique a vontade para abrir uma Pull Request. Mais de 20 pessoas me ajudaram a arrumar alguns erros e problemas no codigo, você tambem pode! Eu não sou o melhor do mundo em Rust, então eu sempre gosto de novas idéias e ver onde posso deixar esse livro melhor.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/browser/browser.md)

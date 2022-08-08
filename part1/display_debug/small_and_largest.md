@@ -31,3 +31,5 @@ The smallest u64 is 0 and the biggest u64 is 18446744073709551615.
 The smallest i128 is -170141183460469231731687303715884105728 and the biggest i128 is 170141183460469231731687303715884105727.
 The smallest u128 is 0 and the biggest u128 is 340282366920938463463374607431768211455.
 ```
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/mutability.md)

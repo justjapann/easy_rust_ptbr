@@ -19,7 +19,7 @@
     - [Pequenos e grandes números](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/display_debug/small_and_largest.md)
   - [Mutabilidade](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/mutability.md)
     - [Shadowing](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/shadowing.md)
-  - Alocação de memoria
+  - [Alocação de memoria](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/memory/memory.md)
   - Mais sobre print
   - Strings
   - Mais variáveis

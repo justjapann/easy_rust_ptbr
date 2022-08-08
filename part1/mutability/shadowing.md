@@ -71,3 +71,5 @@ fn main() {
     println!("The number is now: {}", final_number)
 }
 ```
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/memory/memory.md)

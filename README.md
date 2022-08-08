@@ -1,8 +1,18 @@
-# Essa é uma tradução do livro easy_rust do Dhghomon, todos os direitos são reservados a ele!
+## Updates
 
-## Repositório original https://github.com/Dhghomon/easy_rust
+23 de Maio de 2021: [Disponível em Indonésio](https://github.com/ariandy/easy-rust-indonesia) Obrigado [Ariandy](https://github.com/ariandy)/[1kb](https://1kilobyte.github.io/).
 
-## A tradução pode conter alguns erros, então eu agradeço quem poder me ajudar a arrumar eles.
+2 de Abril de 2021: [BuyMeACoffee link](https://www.buymeacoffee.com/mithridates) Para aqueles que gostariam de me pagar um café.
+
+1 de Fevereiro de 2021: [Disponível no YouTube!](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) Dois meses depois: tudo feito a partir de 1 de Abril de 2021 com 186 vídeos no total (pouco mais de 23 hours).
+
+22 de Dezembro de 2020: mdBook can be found [aqui](https://dhghomon.github.io/easy_rust).
+
+28 de Novembro de 2020: [Disponível em Chines simplificado](https://github.com/kumakichi/easy_rust_chs) thanks to [kumakichi](https://github.com/kumakichi)!
+
+27 de Novembro de 2021: [Videos do Easy Rust gravados agora em Coreano!](https://www.youtube.com/watch?v=W9DO6m8JSSs&list=PLfllocyHVgsSJf1zO6k6o3SX2mbZjAqYE) 한국어판 비디오도 녹화 시작!
+
+![](Easy_Rust_sample_image.png)
 
 - [Introdução](https://github.com/justjapann/easy_rust_ptbr/blob/main/Introduction/introduction.md)
 - [Parte 1 - Rust no seu navegador](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/browser/browser.md)
@@ -118,5 +128,11 @@
   - Usando files
   - Cargo doc
   - O fim?
+
+# Essa é uma tradução do livro easy_rust do Dhghomon, todos os direitos são reservados a ele!
+
+## Repositório original https://github.com/Dhghomon/easy_rust
+
+## A tradução pode conter alguns erros, então eu agradeço quem poder me ajudar a arrumar eles.
 
 ### I would like to thank Dhghomon who give me the records to translate his book

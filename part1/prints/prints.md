@@ -164,21 +164,21 @@ fn main() {
 
 Isso vai printar `[73, 32, 108, 105, 107, 101, 32, 116, 111, 32, 119, 114, 105, 116, 101, 32, 34, 35, 34, 46]`.
 
-There is also a Unicode escape that lets you print any Unicode character inside a string: `\u{}`. A hexadecimal number goes inside the `{}` to print it. Here is a short example of how to get the Unicode number, and how to print it again.
+Também tem um Unicode escape que permite printar qualquer caracter Unicode dentro de uma string: `\u{}`. O número hexadecimal vai para dentro do `{}` e printa ele. Esse é um pequeno exemplo de como pegar um número Unicode, e como printar ele na sequência.
 
 ```rust
 fn main() {
-    println!("{:X}", '행' as u32); // Cast char as u32 to get the hexadecimal value
+    println!("{:X}", '행' as u32);
     println!("{:X}", 'H' as u32);
     println!("{:X}", '居' as u32);
     println!("{:X}", 'い' as u32);
-    println!("\u{D589}, \u{48}, \u{5C45}, \u{3044}"); // Try printing them with unicode escape \u
+    println!("\u{D589}, \u{48}, \u{5C45}, \u{3044}"); // tenta printar ele com um unicode escape \u
 }
 ```
 
-We know that `println!` can print with `{}` (for Display) and `{:?}` (for Debug), plus `{:#?}` for pretty printing. But there are many other ways to print.
+Nós sabemos que `println!` pode printar com `{}` (para Display) e `{:?}` (para Debug), mais `{:#?}` para um print bonito. Mas existem outras maneira de printar.
 
-For example, if you have a reference, you can use `{:p}` to print the _pointer address_. Pointer address means the location in your computer's memory.
+Por exemplo, se você tem uma referência, você pode usar `{:p}` para printar o _pointer address_. Pointer address significa a localização na memória do seu computador.
 
 ```rust
 fn main() {
@@ -188,9 +188,9 @@ fn main() {
 }
 ```
 
-This prints `0xe2bc0ffcfc` or some other address. It might be different every time, depending on where your computer stores it.
+Isso printa `0xe2bc0ffcfc` ou algum outro endereço, pode ser diferente cada vez, dependendo de onde seu computador o armazena.
 
-Or you can print binary, hexadecimal and octal:
+Ou você pode printar um binary, hexadecimal e octal:
 
 ```rust
 fn main() {
@@ -199,9 +199,9 @@ fn main() {
 }
 ```
 
-This prints `Binary: 1000101011, hexadecimal: 22b, octal: 1053`.
+Isso printa `Binary: 1000101011, hexadecimal: 22b, octal: 1053`.
 
-Or you can add numbers to change the order. The first variable will be in index 0, the next in index 1, and so on.
+Você também pode adicionar números para alterar a order, a primeira variável tem o index 0, o próximo tem index 1, e assim por diante.
 
 ```rust
 fn main() {
@@ -212,9 +212,9 @@ fn main() {
 }
 ```
 
-`father_name` is in position 0, `son_name` is in position 1, and `family_name` is in position 2. So it prints `This is Adrian Fahrenheit Țepeș, son of Vlad Țepeș`.
+`father_name` está na posição 0, `son_name` está na posição 1, e `family_name` está na posição 2. Então isso vai printar `This is Adrian Fahrenheit Țepeș, son of Vlad Țepeș`.
 
-Maybe you have a very complex string to print with too many variables inside the `{}` curly brackets. Or maybe you need to print a variable more than one time. Then it can help to add names to the `{}`:
+Talvez você tem uma string muito complexa com várias variáveis dentro do `{}`, ou talvez você precisa printar a variável mais de uma vez, você pode usar mais de um `{}` para isso:
 
 ```rust
 fn main() {
@@ -229,27 +229,23 @@ but {city3} is not in {country}.",
 }
 ```
 
-That will print:
+Isso vai printar:
 
 ```text
 Seoul is in Korea and Busan is also in Korea,
 but Tokyo is not in Korea.
 ```
 
-Very complex printing is also possible in Rust if you want to use it. Here is how to do it:
+Prints muito complexos também são possíveis em Rust se você precisar deles. Aqui está como fazer isso:
 
-{variable:padding alignment minimum.maximum}
+1. Você quer um nome de uma variável? Escreva ela primeiro, como quando a gente fez {country} acima.
+   (Então adicione `:` depois disso se você quer adicionar mais coisas)
+2. Você quer um caracter de preenchimento? Por exemplo, 55 com três "padding zeros" se parece com 00055.
+3. Qual alinhamento (left / middle / right) para o espaçamento?
+4. Você quer o tamanho mínimo? (apenas escreva o número number)
+5. Você quer o tamanho máximo? (escreve o número com o `.` na frente)
 
-To understand this, look at the
-
-1. Do you want a variable name? Write that first, like when we wrote {country} above.
-   (Then add a `:` after it if you want to do more things)
-2. Do you want a padding character? For example, 55 with three "padding zeros" looks like 00055.
-3. What alignment (left / middle / right) for the padding?
-4. Do you want a minimum length? (just write a number)
-5. Do you want a maximum length? (write a number with a `.` in front)
-
-For example, if I want to write "a" with five ㅎ characters on the left and five ㅎ characters on the right:
+Por exemplo, se você quer escrever "a" com cinco ㅎ caracteres na esquerda e cinco ㅎ caracteres na direita:
 
 ```rust
 fn main() {
@@ -258,28 +254,28 @@ fn main() {
 }
 ```
 
-This prints `ㅎㅎㅎㅎㅎaㅎㅎㅎㅎㅎ`. Let's look at 1) to 5) for this to understand how the compiler reads it.
+Isso printa `ㅎㅎㅎㅎㅎaㅎㅎㅎㅎㅎ`. vejamos 1) a 5) para entender isso, como o compilador vai ler.
 
-- Do you want a variable name? `{:ㅎ^11}` There is no variable name. There is nothing before `:`.
-- Do you want a padding character? `{:ㅎ^11}` Yes. ㅎ comes after the `:` and has a `^`. `<` means padding with the character on the left, `>` means on the right, and `^` means in the middle.
-- Do you want a minimum length? `{:ㅎ^11}` Yes: there is an 11 after.
-- Do you want a maximum length? `{:ㅎ^11}` No: there is no number with a `.` before.
+- Você quer um nome de uma variável? `{:ㅎ^11}` Não tem nome de variável, não tem nada antes de `:`.
+- Você quer um caracter de preenchimento? `{:ㅎ^11}` Sim. ㅎ vem depois de `:` e tem um `^`. `<` significa preenchimento com o caractere à esquerda, `>` significa à direita, e `^` significa no centro.
+- Você quer o tamanho mínimo? `{:ㅎ^11}` Sim: tem um 11 depois.
+- Você quer o tamanho máximo? `{:ㅎ^11}` Não: não tem nenhum número com `.` antes.
 
-Here is an example of many types of formatting.
+Aqui está alguns exemplos de tipos de formatação.
 
 ```rust
 fn main() {
     let title = "TODAY'S NEWS";
-    println!("{:-^30}", title); // no variable name, pad with -, put in centre, 30 characters long
+    println!("{:-^30}", title); // sem nome de variavel, tem -, coloque no centro, 30 caracteres de tamanho
     let bar = "|";
-    println!("{: <15}{: >15}", bar, bar); // no variable name, pad with space, 15 characters each, one to the left, one to the right
+    println!("{: <15}{: >15}", bar, bar); // sem nome de variavel, espaco, 15 caracteres cada, um na esquerda, one na direita
     let a = "SEOUL";
     let b = "TOKYO";
-    println!("{city1:-<15}{city2:->15}", city1 = a, city2 = b); // variable names city1 and city2, pad with -, one to the left, one to the right
+    println!("{city1:-<15}{city2:->15}", city1 = a, city2 = b); // nome de variavel city1 e city2, -, um na esquerda, one na direita
 }
 ```
 
-It prints:
+Isso printa:
 
 ```text
 ---------TODAY'S NEWS---------

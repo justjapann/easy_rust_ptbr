@@ -30,7 +30,7 @@
   - [Mutabilidade](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/mutability.md)
     - [Shadowing](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/shadowing.md)
   - [Alocação de memoria](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/memory/memory.md)
-  - Mais sobre print
+  - [Mais sobre print](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/prints/prints.md)
   - Strings
   - Mais variáveis
   - Mais referências

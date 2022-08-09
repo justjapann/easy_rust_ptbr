@@ -2,11 +2,11 @@
 
 23 de Maio de 2021: [Disponível em Indonésio](https://github.com/ariandy/easy-rust-indonesia) Obrigado [Ariandy](https://github.com/ariandy)/[1kb](https://1kilobyte.github.io/).
 
-2 de Abril de 2021: [BuyMeACoffee link](https://www.buymeacoffee.com/mithridates) Para aqueles que gostariam de me pagar um café.
+2 de Abril de 2021: [BuyMeACoffee link](https://www.buymeacoffee.com/mithridates) Para aqueles que gostariam de me pagar um café e me ajudar.
 
-1 de Fevereiro de 2021: [Disponível no YouTube!](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) Dois meses depois: tudo feito a partir de 1 de Abril de 2021 com 186 vídeos no total (pouco mais de 23 hours).
+1 de Fevereiro de 2021: [Disponível no YouTube!](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) Dois meses depois: tudo finalizado, começando em 1 de Abril de 2021 com 186 vídeos no total (pouco mais de 23 hours).
 
-22 de Dezembro de 2020: mdBook can be found [aqui](https://dhghomon.github.io/easy_rust).
+22 de Dezembro de 2020: mdBook pode ser encontrado [aqui](https://dhghomon.github.io/easy_rust).
 
 28 de Novembro de 2020: [Disponível em Chines simplificado](https://github.com/kumakichi/easy_rust_chs) thanks to [kumakichi](https://github.com/kumakichi)!
 

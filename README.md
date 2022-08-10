@@ -33,7 +33,7 @@
   - [Mais sobre print](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/prints/prints.md)
   - [Strings](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/strings/strings.md)
   - [const e static](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/const_static/const_static.md)
-  - Mais referências
+  - [Mais referências](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/more_references.md)
   - Referencias mutáveis
     - Shadowing denovo
   - Dando referência as funções

@@ -12,3 +12,5 @@ Então eles são quase iguais. Programadores Rust sempre usam `const`.
 Você pode escrever o nome com TODAS AS LETRAS MAIUSCÚLAS, e normalmente fora da `main` para que possa ser usado em todo o programa.
 
 Dois exemplos são: `const NUMBER_OF_MONTHS: u32 = 12;` e `static SEASONS: [&str; 4] = ["Spring", "Summer", "Fall", "Winter"];`
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/more_references.md)

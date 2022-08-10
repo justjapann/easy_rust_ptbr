@@ -282,3 +282,5 @@ Isso printa:
 |                            |
 SEOUL--------------------TOKYO
 ```
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/strings/strings.md)

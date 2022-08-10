@@ -1,4 +1,4 @@
-## Updates
+## Atualizações
 
 23 de Maio de 2021: [Disponível em Indonésio](https://github.com/ariandy/easy-rust-indonesia) Obrigado [Ariandy](https://github.com/ariandy)/[1kb](https://1kilobyte.github.io/).
 
@@ -8,7 +8,7 @@
 
 22 de Dezembro de 2020: mdBook pode ser encontrado [aqui](https://dhghomon.github.io/easy_rust).
 
-28 de Novembro de 2020: [Disponível em Chines simplificado](https://github.com/kumakichi/easy_rust_chs) thanks to [kumakichi](https://github.com/kumakichi)!
+28 de Novembro de 2020: [Disponível em Chines simplificado](https://github.com/kumakichi/easy_rust_chs) Obrigado [kumakichi](https://github.com/kumakichi)!
 
 27 de Novembro de 2021: [Videos do Easy Rust gravados agora em Coreano!](https://www.youtube.com/watch?v=W9DO6m8JSSs&list=PLfllocyHVgsSJf1zO6k6o3SX2mbZjAqYE) 한국어판 비디오도 녹화 시작!
 
@@ -31,7 +31,7 @@
     - [Shadowing](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/mutability/shadowing.md)
   - [Alocação de memoria](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/memory/memory.md)
   - [Mais sobre print](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/prints/prints.md)
-  - Strings
+  - [Strings](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/strings/strings.md)
   - Mais variáveis
   - Mais referências
   - Referencias mutáveis

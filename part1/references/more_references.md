@@ -1,8 +1,8 @@
-## More on references
+## Mais sobre referências
 
-**[See this chapter on YouTube](https://youtu.be/R13sQ8SNoEQ)**
+**[Você pode ver esse capítulo no youtube](https://youtu.be/R13sQ8SNoEQ)**
 
-References are very important in Rust. Rust uses references to make sure that all memory access is safe. We know that we use `&` to create a reference:
+Referências são muito importantes em Rust. Rust usa referências para garantir que o acesso a memória está seguro. Nós já sabemos que usamos `&` para criar uma referência:
 
 ```rust
 fn main() {
@@ -13,11 +13,11 @@ fn main() {
 }
 ```
 
-This prints `Austria`.
+Isso printa `Austria`.
 
-In the code, `country` is a `String`. We then created two references to `country`. They have the type `&String`, which you say is a "reference to a String". We could create three references or one hundred references to `country` and it would be no problem.
+No código, `country` é uma `String`. Então criamos duas referências para `country`. Elas tem o tipo `&String`, que você pode dizer como "referência a string". Nós poderiamos criar três referências ou cem referências para `country` que isso não seria um problema.
 
-But this is a problem:
+Mas isso é um problema:
 
 ```rust
 fn return_str() -> &str {
@@ -30,6 +30,6 @@ fn main() {
 }
 ```
 
-The function `return_str()` creates a String, then it creates a reference to the String. Then it tries to return the reference. But the String `country` only lives inside the function, and then it dies. Once a variable is gone, the computer will clean up the memory and use it for something else. So after the function is over, `country_ref` is referring to memory that is already gone, and that's not okay. Rust prevents us from making a mistake with memory here.
+A função `return_str()` cria uma string, em seguida, cria uma referência para a string, depois tenta retornar com a referência. Mas a string `country` so fica viva dentro da função, e depois morre. Uma vez que uma variável se foi, o computador vai limpar a memória e usá-la para outra coisa. Depois que a função acabou, `country_ref` está se referindo a uma memória morta, e isso não é bom. Rust nos impede de cometer um erro com a memoria aqui.
 
-This is the important part about the "owned" type that we talked about above. Because you own a `String`, you can pass it around. But a `&String` will die if its `String` dies, so you don't pass around "ownership" with it.
+Isso é uma parte muito importante sobre "owned" type, que falamos acima. Por que você tem uma `String`, e você pode passar ao redor dela, mas a `&String` vai morrer se a `String` morrer, então você não vai conseguir passar a "ownership" para ele.

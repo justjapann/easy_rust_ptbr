@@ -104,3 +104,5 @@ fn main() {
 ```
 
 E agora você pega a string
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/const_static/const_static.md)

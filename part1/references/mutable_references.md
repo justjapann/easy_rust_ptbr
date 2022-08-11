@@ -99,3 +99,5 @@ fn main() {
 Isso printa `20` sem problemas. Vai funcionar por que o compilador é inteligente o suficiente para entender seu código. Ele sabe que você está usando `number_change` para trocar `number`, mas não ta usando ele denovo, então aqui não tem problema. Nós não estamos usando uma referência mutável e imutável juntas.
 
 Inicialemnte em Rust esse tipo de código gerava erro, mas o compilador é inteligente agora. Ele pode entender não apenas oque so digitamos, mas como usar aquilo também.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/shadowing/shadowing_again.md)

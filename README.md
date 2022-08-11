@@ -35,7 +35,7 @@
   - [const e static](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/const_static/const_static.md)
   - [Mais referências](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/more_references.md)
   - [Referencias mutáveis](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/mutable_references.md)
-    - Shadowing denovo
+    - [Shadowing denovo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/shadowing/shadowing_again.md)
   - Dando referência as funções
   - Copy types
     - Variáveis sem valores

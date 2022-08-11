@@ -34,9 +34,9 @@
   - [Strings](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/strings/strings.md)
   - [const e static](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/const_static/const_static.md)
   - [Mais referências](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/more_references.md)
-  - [Referencias mutáveis](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/mutable_references.md)
-    - [Shadowing denovo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/shadowing/shadowing_again.md)
-  - Dando referência as funções
+  - [Referências mutáveis](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/mutable_references.md)
+  - [Shadowing denovo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/shadowing/shadowing_again.md)
+  - [Dando referência as funções](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/giving_reference_function.md)
   - Copy types
     - Variáveis sem valores
   - Collection types
@@ -133,6 +133,6 @@
 
 ## Repositório original https://github.com/Dhghomon/easy_rust
 
-## A tradução pode conter alguns erros, então eu agradeço quem poder me ajudar a arrumar eles.
+## A tradução pode conter alguns erros, então eu agradeço quem puder me ajudar a arrumar eles.
 
 ### I would like to thank Dhghomon who give me the records to translate his book

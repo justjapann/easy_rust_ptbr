@@ -21,3 +21,5 @@ fn main() {
     println!("{}, {}", country_ref, country); // country_ref continua se referindo ao valor de String::from("Austria") que foi lhe dado.
 }
 ```
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/giving_reference_function.md)

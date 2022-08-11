@@ -33,3 +33,5 @@ fn main() {
 A função `return_str()` cria uma string, em seguida, cria uma referência para a string, depois tenta retornar com a referência. Mas a string `country` so fica viva dentro da função, e depois morre. Uma vez que uma variável se foi, o computador vai limpar a memória e usá-la para outra coisa. Depois que a função acabou, `country_ref` está se referindo a uma memória morta, e isso não é bom. Rust nos impede de cometer um erro com a memoria aqui.
 
 Isso é uma parte muito importante sobre "owned" type, que falamos acima. Por que você tem uma `String`, e você pode passar ao redor dela, mas a `&String` vai morrer se a `String` morrer, então você não vai conseguir passar a "ownership" para ele.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/mutable_references.md)

@@ -34,7 +34,7 @@
   - [Strings](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/strings/strings.md)
   - [const e static](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/const_static/const_static.md)
   - [Mais referências](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/more_references.md)
-  - Referencias mutáveis
+  - [Referencias mutáveis](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/mutable_references.md)
     - Shadowing denovo
   - Dando referência as funções
   - Copy types

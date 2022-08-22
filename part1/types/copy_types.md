@@ -114,3 +114,5 @@ fn main() {
 ```
 
 Em vez de 50 clones, é zero.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/variables/variables_without_value.md)

@@ -38,7 +38,7 @@
   - [Shadowing denovo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/shadowing/shadowing_again.md)
   - [Dando referência as funções](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/giving_reference_function.md)
   - [Copy types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/copy_types.md)
-    - Variáveis sem valores
+    - [Variáveis sem valores](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/variables/variables_without_value.md)
   - Collection types
     - Arrays
   - Vectors

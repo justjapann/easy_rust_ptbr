@@ -37,7 +37,7 @@
   - [Referências mutáveis](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/mutable_references.md)
   - [Shadowing denovo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/shadowing/shadowing_again.md)
   - [Dando referência as funções](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/giving_reference_function.md)
-  - Copy types
+  - [Copy types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/copy_types.md)
     - Variáveis sem valores
   - Collection types
     - Arrays

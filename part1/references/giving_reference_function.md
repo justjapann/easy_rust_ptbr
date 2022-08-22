@@ -96,3 +96,5 @@ fn adds_hungary(mut country: String) { // Aqui está como: adds_hungary pega a S
 Como isso é possível? Por que `mut country` não é uma referência: `adds_hungary` possui `country` agora. (lembre, ela leva `String` e não `&String`). No momento que você chama `adds_hungary`, ela passa a ser dono completo. `country` não tem mais nada a ver com `String::from("Austria")`. Então `adds_hungary` pode tornar `country` como mutável e é perfeitamente seguro fazer isso.
 
 Se lembra da situação do funcionário e do gerente acima? Nesta situação, é como se o funcionário entregasse todo o computador ao gerente. O funcionário nunca mais vai tocar nele denovo, então o gerente pode fazer o que quiser.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/copy_types.md)

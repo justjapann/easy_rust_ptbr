@@ -39,7 +39,7 @@
   - [Dando referência as funções](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/references/giving_reference_function.md)
   - [Copy types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/copy_types.md)
     - [Variáveis sem valores](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/variables/variables_without_value.md)
-  - Collection types
+  - [Collection types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/collection_types.md)
     - Arrays
   - Vectors
   - Tuplas

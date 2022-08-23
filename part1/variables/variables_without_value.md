@@ -59,3 +59,5 @@ fn main() {
 Isso é quase o mesmo de `let my_number = { 100 };`.
 
 Note também que `my_number` não é `mut`, ele não recebeu um valor até obter 100, então ele nunca mudou seu valor. No final, o real código de `my_number` é apenas `let my_number = 100;`.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/collection_types.md)

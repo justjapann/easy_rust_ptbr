@@ -7,7 +7,7 @@ Rust tem dois tipos de strings principais: `String` e `&str`. Qual a diferença 
 - `&str` é uma simples string. Quando você escreve `let my_variable = "Hello, world!"`, você cria uma `&str`. A `&str` é muito rápida.
 - `String` é uma string mais complicada, ela é um pouco mais lenta, porém ela tem mais funções. A `String` é um pointer, com dados no heap.
 
-Outra coisa é que a `&str` tem o `&` na frente dele por que precisa de uma referência para usar um `str`. Isso é por conta do que vimos acima: o stack precisa saber do tamanho, então nós damos o `&` que sabe o tamanho e ele fica feliz. Além disso, por você usar `&` para interagir com o `str`, você não possui ele. Mas a `String` é um _owned_ type, nós vamos aprender sobre isso mais tarde por que é importante que você saiba.
+Outra coisa é que `&str` tem `&` na frente dele, pois precisa de uma referência para usar o `str`. Isso é por conta do que vimos acima: o stack precisa saber o tamanho, então nós damos `&`, que sempre vai saber o tamanho. Além disso, por você usar `&` para interagir com o `str`, você não possui ele. Mas a `String` é um _owned_ type, nós vamos aprender sobre isso mais tarde por que é importante que você saiba.
 
 Ambos `&str` e `String` são UTF-8. Por exemplo, você pode escrever:
 

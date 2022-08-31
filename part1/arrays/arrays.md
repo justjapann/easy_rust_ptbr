@@ -1,33 +1,34 @@
 ### Arrays
 
-An array is data inside square brackets: `[]`. Arrays:
+Um array são um conjunto de dados dentro de um quadrado de chaves: `[]`.
+Arrays:
 
-- must not change their size,
-- must only contain the same type.
+- Não deve mudar de tamanho,
+- Deve conter apenas o mesmo tipo.
 
-They are very fast, however.
+Eles são muito rápidos, entretanto:
 
-The type of an array is: `[type; number]`. For example, the type of `["One", "Two"]` is `[&str; 2]`. This means that even these two arrays have different types:
+O tipo de um array é: `[type; number]`. Por exemplo, o tipo de `["One", "Two"]` é `[&str; 2]`. Isso significa que esses dois arrays têm tipos diferentes:
 
 ```rust
 fn main() {
-    let array1 = ["One", "Two"]; // This one is type [&str; 2]
-    let array2 = ["One", "Two", "Five"]; // But this one is type [&str; 3]. Different type!
+    let array1 = ["One", "Two"]; // isso tem o tipo [&str; 2]
+    let array2 = ["One", "Two", "Five"]; // mas esse tem o tipo [&str; 3]. tipos diferentes!
 }
 ```
 
-Here is a good tip: to know the type of a variable, you can "ask" the compiler by giving it bad instructions. For example:
+Uma boa dica: para saber o tipo de uma variável, você pode perguntar ao compilador dando instruções ruins. Por exemplo:
 
 ```rust
 fn main() {
     let seasons = ["Spring", "Summer", "Autumn", "Winter"];
     let seasons2 = ["Spring", "Summer", "Fall", "Autumn", "Winter"];
     seasons.ddd(); // ⚠️
-    seasons2.thd(); // ⚠️ as well
+    seasons2.thd(); // ⚠️ também
 }
 ```
 
-The compiler says, "What? There's no `.ddd()` method for seasons and no `.thd()` method for seasons 2 either!!" as you can see:
+O compilador fala, "O que? Não existe o método `.ddd()` para as seasons e também não existe o método `.thd()` para as seasons2!!" como você pode ver:
 
 ```text
 error[E0599]: no method named `ddd` found for array `[&str; 4]` in the current scope
@@ -42,9 +43,9 @@ error[E0599]: no method named `thd` found for array `[&str; 5]` in the current s
   |              ^^^ method not found in `[&str; 5]`
 ```
 
-So it tells you `` method not found in `[&str; 4]` ``, which is the type.
+Então ele fala pra você `` method not found in `[&str; 4]` ``, que é o tipo.
 
-If you want an array with all the same value, you can declare it like this:
+Se você quer um array com o mesmo valor, pode declarar ele assim:
 
 ```rust
 fn main() {
@@ -53,22 +54,22 @@ fn main() {
 }
 ```
 
-This prints `["a", "a", "a", "a", "a", "a", "a", "a", "a", "a"]`.
+Isso printa `["a", "a", "a", "a", "a", "a", "a", "a", "a", "a"]`.
 
-This method is used a lot to create buffers. For example, `let mut buffer = [0; 640]` creates an array of 640 zeroes. Then we can change zero to other numbers in order to add data.
+Esse método é usado para criar vários buffers. Por exemplo, `let mut buffer = [0; 640]` cria um array com 640 zeros. Então podemos mudar o zero para outros números para adicionar dados.
 
-You can index (get) entries in an array with []. The first entry is [0], the second is [1], and so on.
+Você pode indexar (pegar) entradas em um array com []. O primeiro valor é [0], o segundo [1], assim por diante.
 
 ```rust
 fn main() {
     let my_numbers = [0, 10, -20];
-    println!("{}", my_numbers[1]); // prints 10
+    println!("{}", my_numbers[1]); // printa 10
 }
 ```
 
-You can get a slice (a piece) of an array. First you need a &, because the compiler doesn't know the size. Then you can use `..` to show the range.
+Você pode pegar uma fatia(um pedaço) de um array. Primeiro você precisa de &, por que o compilador não sabe seu tamanho. Então você pode usar `..` para mostrar a distância.
 
-For example, let's use this array: `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`.
+Por exemplo, vamos o array: `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`.
 
 ```rust
 fn main() {
@@ -81,11 +82,11 @@ fn main() {
 }
 ```
 
-Remember that:
+Lembre-se que:
 
-- Index numbers start at 0 (not 1)
-- Index ranges are **exclusive** (they do not include the last number)
+- Números de index começam em 0 (não 1)
+- Distâncias de index são **exclusivos** (eles não incluem o último número)
 
-So `[0..2]` means the first index and the second index (0 and 1). Or you can call it the "zeroth and first" index. It doesn't have the third item, which is index 2.
+Então `[0..2]` significa o primeiro e segundo número (0 e 1). Ou você pode chamar de "zero e primeiro" index. Não tem o terceiro item, que é o index 2.
 
-You can also have an **inclusive** range, which means it includes the last number too. To do this, add `=` to write `..=` instead of `..`. So instead of `[0..2]` you can write `[0..=2]` if you want the first, second, and third item.
+Você também pode ter um **inclusive** range, que também inclui o último número. Para fazer isso, adicione `=` para escrever `..=`, em vez de `..`. Então, em vez de `[0..2]`, você pode escrever `[0..=2]` se quiser o primeiro, segundo e terceiro item.

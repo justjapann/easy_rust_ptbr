@@ -40,7 +40,7 @@
   - [Copy types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/copy_types.md)
     - [Variáveis sem valores](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/variables/variables_without_value.md)
   - [Collection types](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/types/collection_types.md)
-    - Arrays
+    - [Arrays](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/arrays/arrays.md)
   - Vectors
   - Tuplas
   - Controle de fluxo

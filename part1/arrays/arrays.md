@@ -90,3 +90,5 @@ Lembre-se que:
 Então `[0..2]` significa o primeiro e segundo número (0 e 1). Ou você pode chamar de "zero e primeiro" index. Não tem o terceiro item, que é o index 2.
 
 Você também pode ter um **inclusive** range, que também inclui o último número. Para fazer isso, adicione `=` para escrever `..=`, em vez de `..`. Então, em vez de `[0..2]`, você pode escrever `[0..=2]` se quiser o primeiro, segundo e terceiro item.
+
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/vectors/vector.md)

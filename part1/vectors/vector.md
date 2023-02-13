@@ -117,3 +117,4 @@ fn main() {
                                              // Rust will choose Vec<i32>
 }
 ```
+#### [Proximo capítulo](https://github.com/justjapann/easy_rust_ptbr/blob/main/part1/tuples/tuples.md)
